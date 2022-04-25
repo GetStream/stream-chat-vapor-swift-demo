@@ -13,7 +13,6 @@ let package = Package(
         .package(url: "https://github.com/vapor/fluent-postgres-driver.git", from: "2.0.0"),
         .package(url: "https://github.com/vapor/jwt.git", from: "4.0.0"),
         .package(url: "https://github.com/vapor-community/Imperial.git", from: "1.0.0"),
-        .package(name: "StreamChat", url: "https://github.com/GetStream/stream-chat-vapor-swift.git", branch: "main"),
     ],
     targets: [
         .executableTarget(
@@ -25,7 +24,6 @@ let package = Package(
                 .product(name: "JWT", package: "jwt"),
                 .product(name: "ImperialGitHub", package: "Imperial"),
                 .product(name: "ImperialGoogle", package: "Imperial"),
-                .product(name: "StreamSDKVapor", package: "StreamChat"),
             ],
             swiftSettings: [
                 // Enable better optimizations when building in Release configuration. Despite the use of

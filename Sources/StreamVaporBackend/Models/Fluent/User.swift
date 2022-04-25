@@ -13,7 +13,7 @@ final class User: Model, Content {
     @Field(key: v20220314.email)
     var email: String
     
-    @Field(key: v20220314.email)
+    @Field(key: v20220314.username)
     var username: String
     
     @Field(key: v20220314.passwordHash)

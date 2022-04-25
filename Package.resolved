@@ -128,15 +128,6 @@
         }
       },
       {
-        "package": "StreamChat",
-        "repositoryURL": "https://github.com/GetStream/stream-chat-vapor-swift.git",
-        "state": {
-          "branch": "main",
-          "revision": "f709379919c2e464277a3ed1bba1bd7281940fc9",
-          "version": null
-        }
-      },
-      {
         "package": "swift-backtrace",
         "repositoryURL": "https://github.com/swift-server/swift-backtrace.git",
         "state": {
