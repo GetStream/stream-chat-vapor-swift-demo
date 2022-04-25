@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug ExampleApp",
+            "program": "${workspaceFolder:StreamVaporBackend}/.build/debug/ExampleApp",
+            "args": [],
+            "cwd": "${workspaceFolder:StreamVaporBackend}",
+            "preLaunchTask": "swift: Build Debug ExampleApp"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release ExampleApp",
+            "program": "${workspaceFolder:StreamVaporBackend}/.build/release/ExampleApp",
+            "args": [],
+            "cwd": "${workspaceFolder:StreamVaporBackend}",
+            "preLaunchTask": "swift: Build Release ExampleApp"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug StreamVaporBackend",
+            "program": "${workspaceFolder:StreamVaporBackend}/.build/debug/StreamVaporBackend",
+            "args": [],
+            "cwd": "${workspaceFolder:StreamVaporBackend}",
+            "preLaunchTask": "swift: Build Debug StreamVaporBackend"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release StreamVaporBackend",
+            "program": "${workspaceFolder:StreamVaporBackend}/.build/release/StreamVaporBackend",
+            "args": [],
+            "cwd": "${workspaceFolder:StreamVaporBackend}",
+            "preLaunchTask": "swift: Build Release StreamVaporBackend"
+        }
+    ]
+}
