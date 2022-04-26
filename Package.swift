@@ -13,7 +13,7 @@ let package = Package(
         .package(url: "https://github.com/vapor/fluent-postgres-driver.git", from: "2.0.0"),
         .package(url: "https://github.com/vapor/jwt.git", from: "4.0.0"),
         .package(url: "https://github.com/vapor-community/Imperial.git", from: "1.0.0"),
-        .package(name: "StreamChat", url: "https://github.com/GetStream/stream-chat-vapor-swift.git", branch: "main"),
+        .package(name: "StreamChat", url: "https://github.com/GetStream/stream-chat-vapor-swift.git", from: "0.1.0"),
     ],
     targets: [
         .executableTarget(

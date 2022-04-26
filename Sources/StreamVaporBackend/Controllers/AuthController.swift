@@ -130,12 +130,8 @@ struct AuthController: RouteCollection {
     func generateRedirect(on req: Request, for user: User) async throws -> ResponseEncodable {
         let token = try user.generateToken()
         try await token.save(on: req.db)
-        guard let appURL = Environment.get("APP_REDIRECT_URL") else {
-            req.logger.warning("APP_REDIRECT_URL not set")
-            throw Abort(.internalServerError)
-        }
         let streamToken = try req.stream.createToken(id: user.username)
-        let redirectURL = "\(appURL)://auth?token=\(token.value)&streamToken=\(streamToken.jwt)"
+        let redirectURL = "streamVapor://auth?token=\(token.value)&streamToken=\(streamToken.jwt)"
         return req.redirect(to: redirectURL)
     }
 }

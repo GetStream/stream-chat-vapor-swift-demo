@@ -131,9 +131,9 @@
         "package": "StreamChat",
         "repositoryURL": "https://github.com/GetStream/stream-chat-vapor-swift.git",
         "state": {
-          "branch": "main",
-          "revision": "f709379919c2e464277a3ed1bba1bd7281940fc9",
-          "version": null
+          "branch": null,
+          "revision": "f6f18495da2c0f3b3b2137ea5ebd025891c7317d",
+          "version": "0.1.0"
         }
       },
       {
