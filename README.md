@@ -1,3 +1,5 @@
+> **This repository is archived and no longer maintained.** For a current alternative, see [the Stream Chat tokens and authentication docs](https://getstream.io/chat/docs/ios-swift/tokens-and-authentication/).
+
 <p align="center">
   <img src=".assets/VaporSwift-Github-1280x640px.png"/>
 </p>
